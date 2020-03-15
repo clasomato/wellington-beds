@@ -406,14 +406,16 @@ h1 {
   left: 0;
   margin: 0% 4% 19% 4%;
   width: 92%;
-  z-index: 100; }
-  /* line 75, ../sass/_shop.scss */
+  z-index: 100;
+  color: white; }
+  /* line 76, ../sass/_shop.scss */
   .filter-popup form label {
     float: left;
     color: white; }
-  /* line 80, ../sass/_shop.scss */
+  /* line 81, ../sass/_shop.scss */
   .filter-popup form select {
-    float: right; }
+    float: right;
+    border: 1px solid white; }
 
 /* line 2, ../sass/_beds.scss */
 * {
