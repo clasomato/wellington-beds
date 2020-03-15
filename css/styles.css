@@ -256,7 +256,11 @@
 .topnav .icon {
   display: none; }
 
-/* line 40, ../sass/_nav.scss */
+/* line 39, ../sass/_nav.scss */
+a.icon {
+  font-size: 300%; }
+
+/* line 44, ../sass/_nav.scss */
 .nav-logo {
   float: left;
   height: 100%;
@@ -264,21 +268,21 @@
   padding-right: 3%; }
 
 @media screen and (min-width: 600px) {
-  /* line 48, ../sass/_nav.scss */
+  /* line 52, ../sass/_nav.scss */
   .nav-logo {
     display: hidden; } }
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  /* line 56, ../sass/_nav.scss */
+  /* line 60, ../sass/_nav.scss */
   .topnav a:not(:first-child) {
     display: none; }
 
-  /* line 57, ../sass/_nav.scss */
+  /* line 61, ../sass/_nav.scss */
   .topnav a.icon {
     float: right;
     display: block; }
 
-  /* line 62, ../sass/_nav.scss */
+  /* line 66, ../sass/_nav.scss */
   .topnav {
     display: inherit;
     -webkit-box-flex: 0;
@@ -289,26 +293,26 @@
             align-items: none;
     overflow: auto; }
 
-  /* line 69, ../sass/_nav.scss */
+  /* line 73, ../sass/_nav.scss */
   .topnav a {
     height: auto; }
 
-  /* line 73, ../sass/_nav.scss */
+  /* line 77, ../sass/_nav.scss */
   .nav-logo {
     display: hidden; } }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  /* line 80, ../sass/_nav.scss */
+  /* line 84, ../sass/_nav.scss */
   .topnav.responsive {
     position: relative; }
 
-  /* line 81, ../sass/_nav.scss */
+  /* line 85, ../sass/_nav.scss */
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0; }
 
-  /* line 86, ../sass/_nav.scss */
+  /* line 90, ../sass/_nav.scss */
   .topnav.responsive a {
     float: none;
     display: block;
@@ -510,8 +514,12 @@ h1 {
   float: left; }
 /* line 104, ../sass/_beds.scss */
 .bed-form select {
-  float: right;
-  background-color: white; }
+  background-color: white;
+  margin-bottom: 5%; }
+  /* line 109, ../sass/_beds.scss */
+  .bed-form select option {
+    width: 100%;
+    border: none; }
 
 /* line 13, ../sass/styles.scss */
 body {
