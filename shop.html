@@ -13,7 +13,7 @@
           <div class="col12">
             <div class="topnav" id="myTopnav">
               <img class="nav-logo" src="media/logo.jpg" alt="">
-              <a href=".index.html" class="active">Home</a>
+              <a href="index.html" class="active">Home</a>
               <a href="shop.html">Shop</a>
               <a href="#contact">Specials</a>
               <a href="#about">Contact</a>
@@ -30,13 +30,99 @@
 
 
     <main>
+      <div class="shop">
+        <div class="row">
+          <div class="col12 colM6 colL4">
+            <div class="shop-item-container">
+              <img src="media/bedplace.jpg" width="100%;" alt="">
+              <div class="shop-item-text">
+                <h2>Gel Infuse</h2>
+                <p>The Gel Infuse gives you a firm feel while not compromising on comfort while the 5 zone pocket spring system keeps partner disturbance to a minimum.</p>
+                <a href="#">View More</a>
+                <h3>$800.00</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col12 colM6 colL4">
+            <div class="shop-item-container">
+              <img src="media/bedplace.jpg" width="100%;" alt="">
+              <div class="shop-item-text">
+                <h2>Heading</h2>
+                <p>Description</p>
+                <a href="#">View More</a>
+                <h3>$$$</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col12 colM6 colL4">
+            <div class="shop-item-container">
+              <img src="media/bedplace.jpg" width="100%;" alt="">
+              <div class="shop-item-text">
+                <h2>Heading</h2>
+                <p>Description</p>
+                <a href="#">View More</a>
+                <h3>$$$</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
 
 
       <div class="row">
-        <div class="col2">
-          <div class="filter">
-            <img src="filter" alt="">
+        <div class="col12">
+          <div class="filter-popup" id="filter-pop">
+            <form class="filter-form" method="post">
+              <label for="cl">Comfort Layer</label>
+              <select id="cl">
+                <option value="volvo">Foam</option>
+                <option value="saab">Graphene infused memory foam</option>
+                <option value="mercedes">Latex</option>
+                <option value="audi">Visco gel memory foam</option>
+              </select> <br>
+
+              <label for="f">Feel</label>
+              <select id="f">
+                <option value="volvo">Firm</option>
+                <option value="saab">Medium</option>
+                <option value="mercedes">Plush</option>
+                <option value="audi">Ultra Plush</option>
+              </select> <br>
+
+
+              <label for="s">Sizes</label>
+              <select id="s">
+                <option value="volvo">Double</option>
+                <option value="saab">King</option>
+                <option value="mercedes">Queen</option>
+                <option value="audi">King Single</option>
+                <option value="audi">Single</option>
+                <option value="audi">Super King</option>
+              </select> <br>
+
+
+              <label for="ss">Sizes</label>
+              <select id="ss">
+                <option value="volvo">Monocoil Spring</option>
+                <option value="saab">Pocket Spring</option>
+                <option value="mercedes">Springless</option>
+                <option value="audi">Ultracoil</option>
+              </select> <br>
+
+              <button type="button" name="button">Apply</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col12">
+          <div class="filter" id="filter-trigger">
+            <img src="media/filter.png" alt="">
           </div>
         </div>
       </div>
@@ -47,6 +133,7 @@
 
 
     <!-- Javascript Area -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script>
       function myFunction() {
         var x = document.getElementById("myTopnav");
@@ -56,6 +143,17 @@
           x.className = "topnav";
         }
       }
+
+      $("#filter-trigger").click(function(){
+        console.log("working");
+        $("#filter-pop").toggle();
+      });
     </script>
+
+    <!-- <script>
+      $("#filter-trigger").click(function(){
+        $("#filter-pop").toggle();
+      })
+    </script> -->
   </body>
 </html>
