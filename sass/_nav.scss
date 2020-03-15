@@ -1,7 +1,10 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #014633;
   overflow: hidden;
+  height: 5%;
+  display: flex;
+  align-items: center;
 }
 
 /* Style the links inside the navigation bar */
@@ -10,21 +13,22 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1% 2%;
   text-decoration: none;
   font-size: 17px;
+  height: 100%;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #FAE42F;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #FAE42F;
+  color: black;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -32,12 +36,42 @@
   display: none;
 }
 
+
+.nav-logo {
+  float: left;
+  height: 100%;
+  font-size: 17px;
+  padding-right: 3%;
+}
+
+@media screen and (min-width: 600px) {
+  .nav-logo {
+    display: hidden;
+  }
+}
+
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
+  }
+
+  .topnav {
+    display: inherit;
+    flex: none;
+    align-items: none;
+    overflow: auto;
+  }
+
+  .topnav a {
+    height: auto;
+  }
+
+  .nav-logo {
+    display: hidden;
   }
 }
 

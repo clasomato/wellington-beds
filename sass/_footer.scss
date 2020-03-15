@@ -1,0 +1,14 @@
+$wbyellow: #FAE42F;
+$wbgreen: #014633;
+
+.footer {
+  background-color: $wbgreen;
+  display: flex;
+  justify-content: center;
+  padding: 5% 0%;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}

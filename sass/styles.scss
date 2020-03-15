@@ -1,8 +1,12 @@
 @import "index";
 @import "grid";
 @import "nav";
+@import "footer";
+@import "_shop";
 
-
+// Global Variables
+$wbyellow: #FAE42F;
+$wbgreen: #014633;
 
 // css for all pages
 body {
