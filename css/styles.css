@@ -411,12 +411,114 @@ h1 {
   .filter-popup form select {
     float: right; }
 
-/* line 12, ../sass/styles.scss */
+/* line 2, ../sass/_beds.scss */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* Position the image container (needed to position the left and right arrows) */
+/* line 7, ../sass/_beds.scss */
+.container {
+  position: relative; }
+
+/* Hide the images by default */
+/* line 12, ../sass/_beds.scss */
+.mySlides {
+  display: none; }
+
+/* Add a pointer when hovering over the thumbnail images */
+/* line 17, ../sass/_beds.scss */
+.cursor {
+  cursor: pointer; }
+
+/* Next & previous buttons */
+/* line 22, ../sass/_beds.scss */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none; }
+
+/* Position the "next button" to the right */
+/* line 39, ../sass/_beds.scss */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+/* On hover, add a black background color with a little bit see-through */
+/* line 45, ../sass/_beds.scss */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+/* Number text (1/3 etc) */
+/* line 51, ../sass/_beds.scss */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0; }
+
+/* Container for image text */
+/* line 60, ../sass/_beds.scss */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white; }
+
+/* line 67, ../sass/_beds.scss */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Six columns side by side */
+/* line 74, ../sass/_beds.scss */
+.column {
+  float: left;
+  width: 16.66%; }
+
+/* Add a transparency effect for thumnbail images */
+/* line 80, ../sass/_beds.scss */
+.demo {
+  opacity: 0.6; }
+
+/* line 84, ../sass/_beds.scss */
+.active,
+.demo:hover {
+  opacity: 1; }
+
+/* line 95, ../sass/_beds.scss */
+.bed-text {
+  margin: 5% 5% 5% 5%; }
+
+/* line 100, ../sass/_beds.scss */
+.bed-form label {
+  float: left; }
+/* line 104, ../sass/_beds.scss */
+.bed-form select {
+  float: right;
+  background-color: white; }
+
+/* line 13, ../sass/styles.scss */
 body {
   padding: 0;
   margin: 0; }
 
-/* line 17, ../sass/styles.scss */
+/* line 18, ../sass/styles.scss */
 * {
   font-family: 'Montserrat', sans-serif; }
 
