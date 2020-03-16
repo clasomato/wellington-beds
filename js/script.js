@@ -10,3 +10,8 @@ function myFunction() {
 $("#icon").click(function(){
   $("#navlogo").toggle();
 });
+
+
+$("#footer-nav-trigger").click(function(){
+  $("#footer-nav-content").toggle();
+});

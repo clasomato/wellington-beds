@@ -5,3 +5,8 @@
   font-size: 1em;
   background-color: $wbyellow;
 }
+
+@mixin remove-deco {
+  text-decoration: none;
+  color: black;
+}

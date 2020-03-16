@@ -333,7 +333,46 @@ a.icon {
     float: none;
     display: block;
     text-align: left; } }
-/* line 3, ../sass/_footer.scss */
+/* line 1, ../sass/_footer.scss */
+.footer-nav-mobile {
+  width: 80%;
+  margin: 0 auto; }
+
+/* line 7, ../sass/_footer.scss */
+.navigation-dropdown {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  padding: 0; }
+
+/* line 14, ../sass/_footer.scss */
+#footer-nav-trigger {
+  border: none;
+  padding: 2% 4%;
+  min-width: 4%;
+  font-size: 1em;
+  background-color: #FAE42F;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5%; }
+
+/* line 21, ../sass/_footer.scss */
+.mobile-nav-a {
+  width: 50%;
+  text-decoration: none;
+  color: black;
+  padding: 3% 0%;
+  border-radius: 0.5em;
+  margin-bottom: 5%;
+  background-color: #FAE42F;
+  margin: 0 auto;
+  -ms-flex-item-align: center;
+      align-self: center; }
+
+/* line 33, ../sass/_footer.scss */
 .footer {
   background-color: #014633;
   display: -webkit-box;
@@ -347,31 +386,47 @@ a.icon {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center; }
-  /* line 11, ../sass/_footer.scss */
-  .footer a {
+  text-align: center;
+  overflow: auto; }
+
+/* line 43, ../sass/_footer.scss */
+.footer-text {
+  color: white; }
+  /* line 46, ../sass/_footer.scss */
+  .footer-text h3 {
+    font-weight: 300; }
+
+/* line 51, ../sass/_footer.scss */
+.footer-nav {
+  display: none; }
+  /* line 54, ../sass/_footer.scss */
+  .footer-nav a {
     text-decoration: none;
     color: black;
     margin-right: 2%;
     padding: 1%;
     border-radius: 0.5em;
     background-color: #FAE42F; }
-  /* line 20, ../sass/_footer.scss */
-  .footer a:hover {
+  /* line 63, ../sass/_footer.scss */
+  .footer-nav a:hover {
     background-color: #014633;
     color: white; }
 
-/* line 26, ../sass/_footer.scss */
-.footer-text {
-  color: white; }
-  /* line 29, ../sass/_footer.scss */
-  .footer-text h3 {
-    font-weight: 300; }
-
 @media screen and (min-width: 600px) {
-  /* line 37, ../sass/_footer.scss */
+  /* line 72, ../sass/_footer.scss */
+  .footer .footer-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  /* line 77, ../sass/_footer.scss */
   .footer a {
-    padding: 0.5% 1%; } }
+    padding: 0.5% 1%; }
+  /* line 80, ../sass/_footer.scss */
+  .footer .footer-nav-mobile {
+    display: none; } }
 /* line 5, ../sass/_shop.scss */
 h1 {
   color: black; }
