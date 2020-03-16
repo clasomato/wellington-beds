@@ -113,6 +113,16 @@
   }
 }
 
+.bed-trigger {
+  border: 1px solid black;
+}
+
+form {
+  button {
+    @include button();
+  }
+}
+
 
 @media screen and (min-width: 600px) {
   .container {

@@ -15,7 +15,7 @@
           <div class="col12">
             <div class="topnav" id="myTopnav">
               <img class="nav-logo" id="navlogo" src="media/logo.jpg" alt="">
-              <a href=".index.html" class="active">Home</a>
+              <a href="index.html" class="active">Home</a>
               <a href="shop.html">Shop</a>
               <a href="#contact">Specials</a>
               <a href="#about">Contact</a>
@@ -127,45 +127,90 @@
 
         <div class="col12 colL6">
           <div class="bed-text">
-          <form class="bed-form" method="post">
-            <label for="cl">Comfort Layer:</label> <br>
-            <select id="cl">
-              <option value="volvo">Foam</option>
-              <option value="saab">Graphene infused memory foam</option>
-              <option value="mercedes">Latex</option>
-              <option value="audi">Visco gel memory foam</option>
-            </select> <br>
+            <form class="filter-form" method="post">
+              <!-- <label for="cl">Comfort Layer</label> <br>
+              <select id="cl" class="custom-select">
+                <option value="volvo">Foam</option>
+                <option value="saab">Graphene infused memory foam</option>
+                <option value="mercedes">Latex</option>
+                <option value="audi">Visco gel memory foam</option>
+              </select> <br>
 
-            <label for="f">Feel:</label> <br>
-            <select id="f">
-              <option value="volvo">Firm</option>
-              <option value="saab">Medium</option>
-              <option value="mercedes">Plush</option>
-              <option value="audi">Ultra Plush</option>
-            </select> <br>
-
-
-            <label for="s">Sizes:</label> <br>
-            <select id="s">
-              <option value="volvo">Double</option>
-              <option value="saab">King</option>
-              <option value="mercedes">Queen</option>
-              <option value="audi">King Single</option>
-              <option value="audi">Single</option>
-              <option value="audi">Super King</option>
-            </select> <br>
+              <label for="f">Feel</label> <br>
+              <select id="f" class="custom-select">
+                <option value="volvo">Firm</option>
+                <option value="saab">Medium</option>
+                <option value="mercedes">Plush</option>
+                <option value="audi">Ultra Plush</option>
+              </select> <br>
 
 
-            <label for="ss">Type:</label> <br>
-            <select id="ss">
-              <option value="volvo">Monocoil Spring</option>
-              <option value="saab">Pocket Spring</option>
-              <option value="mercedes">Springless</option>
-              <option value="audi">Ultracoil</option>
-            </select> <br>
+              <label for="s">Sizes</label> <br>
+              <select id="s" class="custom-select">
+                <option value="volvo">Double</option>
+                <option value="saab">King</option>
+                <option value="mercedes">Queen</option>
+                <option value="audi">King Single</option>
+                <option value="audi">Single</option>
+                <option value="audi">Super King</option>
+              </select> <br>
 
-            <button type="button" name="button">Add to cart</button>
-          </form>
+
+              <label for="ss">Support System</label> <br>
+              <select id="ss" class="custom-select">
+                <option value="volvo">Monocoil Spring</option>
+                <option value="saab">Pocket Spring</option>
+                <option value="mercedes">Springless</option>
+                <option value="audi">Ultracoil</option>
+              </select> <br> -->
+
+
+              <!-- <select class="" name="" id="test-trigger" placeholder="text"></select> -->
+
+              <h3 id="test-trigger-1" class="dropdown-trigger bed-trigger">Comfort Layer</h3>
+              <div class="selectdrop" id="test-drop-1" style="display:none">
+                <ul>
+                  <li><input type="checkbox" />Foam </li>
+                  <li><input type="checkbox" />Graphene infused memory foam </li>
+                  <li><input type="checkbox" />Latex </li>
+                  <li><input type="checkbox" />Visco gel memory foam </li>
+                </ul>
+              </div>
+
+              <h3 id="test-trigger-2" class="dropdown-trigger bed-trigger">Feel</h3>
+              <div class="selectdrop" id="test-drop-2" style="display:none">
+                <ul>
+                  <li><input type="checkbox" />Firm </li>
+                  <li><input type="checkbox" />Medium </li>
+                  <li><input type="checkbox" />Plus </li>
+                  <li><input type="checkbox" />Ulra Plush </li>
+                </ul>
+              </div>
+
+              <h3 id="test-trigger-3" class="dropdown-trigger bed-trigger">Sizes</h3>
+              <div class="selectdrop" id="test-drop-3" style="display:none">
+                <ul>
+                  <li><input type="checkbox" />Double </li>
+                  <li><input type="checkbox" />King </li>
+                  <li><input type="checkbox" />Queen </li>
+                  <li><input type="checkbox" />King Single </li>
+                  <li><input type="checkbox" />Single </li>
+                  <li><input type="checkbox" />Super King </li>
+                </ul>
+              </div>
+
+              <h3 id="test-trigger-4" class="dropdown-trigger bed-trigger">Support System</h3>
+              <div class="selectdrop" id="test-drop-4" style="display:none">
+                <ul>
+                  <li><input type="checkbox" />Monocoil Spring </li>
+                  <li><input type="checkbox" />Pocket Spring </li>
+                  <li><input type="checkbox" />Springless </li>
+                  <li><input type="checkbox" />Ultracoil </li>
+                </ul>
+              </div>
+
+              <button type="button" name="button" action="shop.html">Apply</button>
+            </form>
           </div>
         </div>
 
@@ -174,54 +219,25 @@
       </div>
 
 
-      <!-- <div class="row">
-        <div class="col12">
-          <div class="bed-text">
-          <form class="bed-form" method="post">
-            <label for="cl">Comfort Layer:</label> <br>
-            <select id="cl">
-              <option value="volvo">Foam</option>
-              <option value="saab">Graphene infused memory foam</option>
-              <option value="mercedes">Latex</option>
-              <option value="audi">Visco gel memory foam</option>
-            </select> <br>
-
-            <label for="f">Feel:</label> <br>
-            <select id="f">
-              <option value="volvo">Firm</option>
-              <option value="saab">Medium</option>
-              <option value="mercedes">Plush</option>
-              <option value="audi">Ultra Plush</option>
-            </select> <br>
-
-
-            <label for="s">Sizes:</label> <br>
-            <select id="s">
-              <option value="volvo">Double</option>
-              <option value="saab">King</option>
-              <option value="mercedes">Queen</option>
-              <option value="audi">King Single</option>
-              <option value="audi">Single</option>
-              <option value="audi">Super King</option>
-            </select> <br>
-
-
-            <label for="ss">Type:</label> <br>
-            <select id="ss">
-              <option value="volvo">Monocoil Spring</option>
-              <option value="saab">Pocket Spring</option>
-              <option value="mercedes">Springless</option>
-              <option value="audi">Ultracoil</option>
-            </select> <br>
-
-            <button type="button" name="button">Add to cart</button>
-          </form>
-          </div>
-        </div>
-      </div> -->
 
 
     </main>
+
+
+    <footer class="footer">
+      <div class="footer-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="#contact">Specials</a>
+        <a href="#about">Contact</a>
+        <a href="#about">About Us</a>
+        <a href="#about">FAQ'S</a>
+      </div> <br>
+
+      <div class="footer-text">
+        <h3>&copy; Wellington Beds, 2020</h3>
+      </div>
+    </footer>
 
 
 
@@ -266,8 +282,24 @@
         }
         slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active";
-        captionText.innerHTML = dots[slideIndex-1].alt;
+        // captionText.innerHTML = dots[slideIndex-1].alt;
       }
+
+      $("#test-trigger-1").click(function(){
+        $("#test-drop-1").slideToggle(300);
+      });
+
+      $("#test-trigger-2").click(function(){
+        $("#test-drop-2").slideToggle(300);
+      });
+
+      $("#test-trigger-3").click(function(){
+        $("#test-drop-3").slideToggle(300);
+      });
+
+      $("#test-trigger-4").click(function(){
+        $("#test-drop-4").slideToggle(300);
+      });
     </script>
   </body>
 </html>

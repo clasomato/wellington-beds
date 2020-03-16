@@ -14,7 +14,7 @@
           <div class="col12">
             <div class="topnav" id="myTopnav">
               <img class="nav-logo" id="navlogo" src="media/logo.jpg" alt="">
-              <a href=".index.html" class="active">Home</a>
+              <a href="index.html" class="active">Home</a>
               <a href="shop.html">Shop</a>
               <a href="#contact">Specials</a>
               <a href="#about">Contact</a>
@@ -69,6 +69,54 @@
             </div>
           </div>
         </div>
+
+
+
+
+
+
+
+        <div class="row">
+          <div class="col12 colM6 colL4">
+            <div class="shop-item-container">
+              <img src="media/bedplace.jpg" width="100%;" alt="">
+              <div class="shop-item-text">
+                <h2>Gel Infuse</h2>
+                <p>The Gel Infuse gives you a firm feel while not compromising on comfort while the 5 zone pocket spring system keeps partner disturbance to a minimum.</p>
+                <a href="#">View More</a>
+                <h3>$800.00</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col12 colM6 colL4">
+            <div class="shop-item-container">
+              <img src="media/bedplace.jpg" width="100%;" alt="">
+              <div class="shop-item-text">
+                <h2>The Sundown Bed</h2>
+                <p>The Sundown uses a 32mm thick layer of high density foam combined with 2 layers of pillow soft foam to provide a Medium feel, while the 5 Zone Pocket Spring system provides excellent support.</p>
+                <a href="#">View More</a>
+                <h3>$500.00</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col12 colM6 colL4">
+            <div class="shop-item-container">
+              <img src="https://static.wixstatic.com/media/d014ce_bc9f894769ab488aaadc75369d2c24b3~mv2.jpg/v1/fill/w_500,h_333,al_c,q_85,usm_0.66_1.00_0.01/d014ce_bc9f894769ab488aaadc75369d2c24b3~mv2.webp" width="100%;" alt="">
+              <div class="shop-item-text">
+                <h2>Gel Platinum Plus</h2>
+                <p>The GEL Platinum is our most advanced bed, with Gel Infused memory foam and ULTRACOIL support technology.</p>
+                <a href="bed-page.html">View More</a>
+                <h3>$5,000.00</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
       </div>
 
 
@@ -78,8 +126,8 @@
         <div class="col12">
           <div class="filter-popup" id="filter-pop">
             <form class="filter-form" method="post">
-              <label for="cl">Comfort Layer</label> <br>
-              <select id="cl">
+              <!-- <label for="cl">Comfort Layer</label> <br>
+              <select id="cl" class="custom-select">
                 <option value="volvo">Foam</option>
                 <option value="saab">Graphene infused memory foam</option>
                 <option value="mercedes">Latex</option>
@@ -87,7 +135,7 @@
               </select> <br>
 
               <label for="f">Feel</label> <br>
-              <select id="f">
+              <select id="f" class="custom-select">
                 <option value="volvo">Firm</option>
                 <option value="saab">Medium</option>
                 <option value="mercedes">Plush</option>
@@ -96,7 +144,7 @@
 
 
               <label for="s">Sizes</label> <br>
-              <select id="s">
+              <select id="s" class="custom-select">
                 <option value="volvo">Double</option>
                 <option value="saab">King</option>
                 <option value="mercedes">Queen</option>
@@ -106,15 +154,60 @@
               </select> <br>
 
 
-              <label for="ss">Sizes</label> <br>
-              <select id="ss">
+              <label for="ss">Support System</label> <br>
+              <select id="ss" class="custom-select">
                 <option value="volvo">Monocoil Spring</option>
                 <option value="saab">Pocket Spring</option>
                 <option value="mercedes">Springless</option>
                 <option value="audi">Ultracoil</option>
-              </select> <br>
+              </select> <br> -->
 
-              <button type="button" name="button">Apply</button>
+
+              <!-- <select class="" name="" id="test-trigger" placeholder="text"></select> -->
+
+              <h3 id="test-trigger-1" class="dropdown-trigger">Comfort Layer</h3>
+              <div class="selectdrop" id="test-drop-1" style="display:none">
+                <ul>
+                  <li><input type="checkbox" />Foam </li>
+                  <li><input type="checkbox" />Graphene infused memory foam </li>
+                  <li><input type="checkbox" />Latex </li>
+                  <li><input type="checkbox" />Visco gel memory foam </li>
+                </ul>
+              </div>
+
+              <h3 id="test-trigger-2" class="dropdown-trigger">Feel</h3>
+              <div class="selectdrop" id="test-drop-2" style="display:none">
+                <ul>
+                  <li><input type="checkbox" />Firm </li>
+                  <li><input type="checkbox" />Medium </li>
+                  <li><input type="checkbox" />Plus </li>
+                  <li><input type="checkbox" />Ulra Plush </li>
+                </ul>
+              </div>
+
+              <h3 id="test-trigger-3" class="dropdown-trigger">Sizes</h3>
+              <div class="selectdrop" id="test-drop-3" style="display:none">
+                <ul>
+                  <li><input type="checkbox" />Double </li>
+                  <li><input type="checkbox" />King </li>
+                  <li><input type="checkbox" />Queen </li>
+                  <li><input type="checkbox" />King Single </li>
+                  <li><input type="checkbox" />Single </li>
+                  <li><input type="checkbox" />Super King </li>
+                </ul>
+              </div>
+
+              <h3 id="test-trigger-4" class="dropdown-trigger">Support System</h3>
+              <div class="selectdrop" id="test-drop-4" style="display:none">
+                <ul>
+                  <li><input type="checkbox" />Monocoil Spring </li>
+                  <li><input type="checkbox" />Pocket Spring </li>
+                  <li><input type="checkbox" />Springless </li>
+                  <li><input type="checkbox" />Ultracoil </li>
+                </ul>
+              </div>
+
+              <button type="button" name="button" action="shop.html">Apply</button>
             </form>
           </div>
         </div>
@@ -129,6 +222,21 @@
       </div>
     </main>
 
+    <footer class="footer">
+      <div class="footer-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="#contact">Specials</a>
+        <a href="#about">Contact</a>
+        <a href="#about">About Us</a>
+        <a href="#about">FAQ'S</a>
+      </div> <br>
+
+      <div class="footer-text">
+        <h3>&copy; Wellington Beds, 2020</h3>
+      </div>
+    </footer>
+
 
 
 
@@ -139,8 +247,24 @@
 
     <script>
       $("#filter-trigger").click(function(){
-        $("#filter-pop").toggle().fade(1000);
-      })
+        $("#filter-pop").slideToggle(300);
+      });
+
+      $("#test-trigger-1").click(function(){
+        $("#test-drop-1").slideToggle(300);
+      });
+
+      $("#test-trigger-2").click(function(){
+        $("#test-drop-2").slideToggle(300);
+      });
+
+      $("#test-trigger-3").click(function(){
+        $("#test-drop-3").slideToggle(300);
+      });
+
+      $("#test-trigger-4").click(function(){
+        $("#test-drop-4").slideToggle(300);
+      });
     </script>
   </body>
 </html>

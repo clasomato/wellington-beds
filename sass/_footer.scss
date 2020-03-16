@@ -1,5 +1,4 @@
-$wbyellow: #FAE42F;
-$wbgreen: #014633;
+
 
 .footer {
   background-color: $wbgreen;
@@ -29,5 +28,14 @@ $wbgreen: #014633;
 
   h3 {
     font-weight: 300;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .footer {
+    a {
+      padding: 0.5% 1%;
+    }
   }
 }

@@ -7,9 +7,9 @@ h1 {
 }
 
 .shop {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 }
 
 
@@ -45,7 +45,7 @@ h1 {
   bottom: 0;
   left: 0;
   margin: 0% 0% 5% 5%;
-  background-color: lightgrey;
+  background-color: $wbyellow;
   width: 12%;
   padding: 2%;
   border-radius: 10em;
@@ -73,6 +73,10 @@ h1 {
   color: white;
   overflow: auto;
 
+  button {
+    @include button();
+  }
+
   form {
     label {
       float: left;
@@ -81,12 +85,40 @@ h1 {
 
     select {
       float: none;
-      border: 1px solid white;
+      // border: 1px solid white;
+      border: none;
       margin-bottom: 4%;
+      background-color: white;
+      border-radius: 0;
+      padding: 10em 10%;
+      box-sizing: border-box;
+      width: 100%;
     }
   }
 }
 
+
+
+// New Drop down system
+.dropdown-trigger {
+  background-color: white;
+  width: 100%;
+  color: black;
+  padding: 1%;
+  padding-left: 2%;
+  font-weight: 300;
+
+  h3 {
+    padding: 0;
+    margin: 0.1em;;
+    line-height: 0.2em;
+    margin: none;
+  }
+}
+
+.selectdrop {
+  text-decoration: none;
+}
 
 
 
@@ -100,5 +132,11 @@ h1 {
     img {
       width: 100%;
     }
+  }
+
+  .filter-popup {
+    width: 20%;
+    margin: 0% 2% 11% 4%;
+    padding: 2% 2%;
   }
 }
