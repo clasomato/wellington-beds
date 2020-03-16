@@ -113,11 +113,19 @@ h1 {
     margin: 0.1em;;
     line-height: 0.2em;
     margin: none;
+    cursor: pointer;
   }
 }
 
 .selectdrop {
   text-decoration: none;
+
+  ul {
+    padding-left: 8%;
+  }
+  li {
+    list-style: none;
+  }
 }
 
 

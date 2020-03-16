@@ -33,10 +33,11 @@
     margin: 0;
     text-decoration: underline;
     font-size: 3.2em;
-    font-weight: 300; }
+    font-weight: 300;
+    text-align: center; }
 
 @media screen and (min-width: 600px) {
-  /* line 36, ../sass/_index.scss */
+  /* line 37, ../sass/_index.scss */
   .splash h1 {
     font-size: 4em; } }
 /* line 20, ../sass/_grid.scss */
@@ -528,22 +529,29 @@ h1 {
     padding: 0;
     margin: 0.1em;
     line-height: 0.2em;
-    margin: none; }
+    margin: none;
+    cursor: pointer; }
 
-/* line 119, ../sass/_shop.scss */
+/* line 120, ../sass/_shop.scss */
 .selectdrop {
   text-decoration: none; }
+  /* line 123, ../sass/_shop.scss */
+  .selectdrop ul {
+    padding-left: 8%; }
+  /* line 126, ../sass/_shop.scss */
+  .selectdrop li {
+    list-style: none; }
 
 @media screen and (min-width: 600px) {
-  /* line 129, ../sass/_shop.scss */
+  /* line 137, ../sass/_shop.scss */
   .filter {
     width: 5%;
     padding: 1%; }
-    /* line 132, ../sass/_shop.scss */
+    /* line 140, ../sass/_shop.scss */
     .filter img {
       width: 100%; }
 
-  /* line 137, ../sass/_shop.scss */
+  /* line 145, ../sass/_shop.scss */
   .filter-popup {
     width: 20%;
     margin: 0% 2% 11% 4%;
