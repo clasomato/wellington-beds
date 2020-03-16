@@ -78,7 +78,7 @@
         <div class="col12">
           <div class="filter-popup" id="filter-pop">
             <form class="filter-form" method="post">
-              <label for="cl">Comfort Layer</label>
+              <label for="cl">Comfort Layer</label> <br>
               <select id="cl">
                 <option value="volvo">Foam</option>
                 <option value="saab">Graphene infused memory foam</option>
@@ -86,7 +86,7 @@
                 <option value="audi">Visco gel memory foam</option>
               </select> <br>
 
-              <label for="f">Feel</label>
+              <label for="f">Feel</label> <br>
               <select id="f">
                 <option value="volvo">Firm</option>
                 <option value="saab">Medium</option>
@@ -95,7 +95,7 @@
               </select> <br>
 
 
-              <label for="s">Sizes</label>
+              <label for="s">Sizes</label> <br>
               <select id="s">
                 <option value="volvo">Double</option>
                 <option value="saab">King</option>
@@ -106,7 +106,7 @@
               </select> <br>
 
 
-              <label for="ss">Sizes</label>
+              <label for="ss">Sizes</label> <br>
               <select id="ss">
                 <option value="volvo">Monocoil Spring</option>
                 <option value="saab">Pocket Spring</option>
@@ -136,5 +136,11 @@
     <!-- Javascript Area -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="js/script.js" charset="utf-8"></script>
+
+    <script>
+      $("#filter-trigger").click(function(){
+        $("#filter-pop").toggle().fade(1000);
+      })
+    </script>
   </body>
 </html>
