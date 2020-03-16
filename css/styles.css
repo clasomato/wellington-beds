@@ -277,7 +277,12 @@
 a.icon {
   font-size: 300%; }
 
-/* line 44, ../sass/_nav.scss */
+/* line 43, ../sass/_nav.scss */
+.cart {
+  font-weight: 500;
+  font-size: 1.1em; }
+
+/* line 48, ../sass/_nav.scss */
 .nav-logo {
   float: left;
   height: 100%;
@@ -285,21 +290,21 @@ a.icon {
   padding-right: 3%; }
 
 @media screen and (min-width: 600px) {
-  /* line 52, ../sass/_nav.scss */
+  /* line 56, ../sass/_nav.scss */
   .nav-logo {
     display: hidden; } }
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  /* line 60, ../sass/_nav.scss */
+  /* line 64, ../sass/_nav.scss */
   .topnav a:not(:first-child) {
     display: none; }
 
-  /* line 61, ../sass/_nav.scss */
+  /* line 65, ../sass/_nav.scss */
   .topnav a.icon {
     float: right;
     display: block; }
 
-  /* line 66, ../sass/_nav.scss */
+  /* line 70, ../sass/_nav.scss */
   .topnav {
     display: inherit;
     -webkit-box-flex: 0;
@@ -310,26 +315,26 @@ a.icon {
             align-items: none;
     overflow: auto; }
 
-  /* line 73, ../sass/_nav.scss */
+  /* line 77, ../sass/_nav.scss */
   .topnav a {
     height: auto; }
 
-  /* line 77, ../sass/_nav.scss */
+  /* line 81, ../sass/_nav.scss */
   .nav-logo {
     display: hidden; } }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  /* line 84, ../sass/_nav.scss */
+  /* line 88, ../sass/_nav.scss */
   .topnav.responsive {
     position: relative; }
 
-  /* line 85, ../sass/_nav.scss */
+  /* line 89, ../sass/_nav.scss */
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0; }
 
-  /* line 90, ../sass/_nav.scss */
+  /* line 94, ../sass/_nav.scss */
   .topnav.responsive a {
     float: none;
     display: block;
@@ -689,6 +694,10 @@ form button {
     .bed-form select option {
       width: 100%;
       border: none; } }
+/* line 1, ../sass/_cart.scss */
+.cart-container {
+  margin: 0 auto; }
+
 /* line 14, ../sass/styles.scss */
 body {
   padding: 0;
