@@ -86,3 +86,18 @@ h1 {
     }
   }
 }
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+  .filter {
+    width: 5%;
+    img {
+      width: 100%;
+    }
+  }
+}

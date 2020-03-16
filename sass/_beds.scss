@@ -112,3 +112,29 @@
     }
   }
 }
+
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 80%;
+    margin: auto;
+    margin-top: 12%;
+  }
+
+  .bed-form {
+    label {
+      // float: left;
+    }
+
+    select {
+      // float: right;
+      background-color: white;
+      margin-bottom: 2%;
+
+      option {
+        width: 100%;
+        border: none;
+      }
+    }
+  }
+}

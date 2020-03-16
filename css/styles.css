@@ -419,6 +419,13 @@ h1 {
     border: 1px solid white;
     margin-bottom: 4%; }
 
+@media screen and (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000397}}
+  .filter {
+    width: 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000399}}
+    .filter img {
+      width: 100%; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\000032}}
 * {
   -webkit-box-sizing: border-box;
@@ -525,6 +532,21 @@ h1 {
     width: 100%;
     border: none; }
 
+@media screen and (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\00003118}}
+  .container {
+    width: 80%;
+    margin: auto;
+    margin-top: 12%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\00003129}}
+  .bed-form select {
+    background-color: white;
+    margin-bottom: 2%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\00003134}}
+    .bed-form select option {
+      width: 100%;
+      border: none; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/styles\.scss}line{font-family:\0000313}}
 body {
   padding: 0;
