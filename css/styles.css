@@ -1,4 +1,4 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_index\.scss}line{font-family:\000031}}
+/* line 1, ../sass/_index.scss */
 .splash {
   background-image: url("../media/bg.jpg");
   background-position: center;
@@ -13,8 +13,12 @@
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_index\.scss}line{font-family:\0000311}}
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 12, ../sass/_index.scss */
   .splash a {
     background-color: #FAE42F;
     color: black;
@@ -22,200 +26,208 @@
     padding: 1% 2%;
     font-size: 2em;
     border-radius: 0.2em; }
+  /* line 21, ../sass/_index.scss */
+  .splash h1 {
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    font-size: 3em;
+    font-weight: 300; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000320}}
+/* line 20, ../sass/_grid.scss */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000313}}
+/* line 13, ../sass/_grid.scss */
 .row::after {
   clear: both;
   display: block;
   content: ""; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000330}}
+/* line 30, ../sass/_grid.scss */
 .col1 {
   width: 8.3333333333%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000330}}
+/* line 30, ../sass/_grid.scss */
 .col2 {
   width: 16.6666666667%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000330}}
+/* line 30, ../sass/_grid.scss */
 .col3 {
   width: 25%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000330}}
+/* line 30, ../sass/_grid.scss */
 .col4 {
   width: 33.3333333333%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000330}}
+/* line 30, ../sass/_grid.scss */
 .col5 {
   width: 41.6666666667%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000330}}
+/* line 30, ../sass/_grid.scss */
 .col6 {
   width: 50%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000330}}
+/* line 30, ../sass/_grid.scss */
 .col7 {
   width: 58.3333333333%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000330}}
+/* line 30, ../sass/_grid.scss */
 .col8 {
   width: 66.6666666667%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000330}}
+/* line 30, ../sass/_grid.scss */
 .col9 {
   width: 75%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000330}}
+/* line 30, ../sass/_grid.scss */
 .col10 {
   width: 83.3333333333%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000330}}
+/* line 30, ../sass/_grid.scss */
 .col11 {
   width: 91.6666666667%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000330}}
+/* line 30, ../sass/_grid.scss */
 .col12 {
   width: 100%;
   float: left; }
 
 @media screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000340}}
+  /* line 40, ../sass/_grid.scss */
   .colM1 {
     width: 8.3333333333%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000340}}
+  /* line 40, ../sass/_grid.scss */
   .colM2 {
     width: 16.6666666667%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000340}}
+  /* line 40, ../sass/_grid.scss */
   .colM3 {
     width: 25%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000340}}
+  /* line 40, ../sass/_grid.scss */
   .colM4 {
     width: 33.3333333333%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000340}}
+  /* line 40, ../sass/_grid.scss */
   .colM5 {
     width: 41.6666666667%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000340}}
+  /* line 40, ../sass/_grid.scss */
   .colM6 {
     width: 50%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000340}}
+  /* line 40, ../sass/_grid.scss */
   .colM7 {
     width: 58.3333333333%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000340}}
+  /* line 40, ../sass/_grid.scss */
   .colM8 {
     width: 66.6666666667%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000340}}
+  /* line 40, ../sass/_grid.scss */
   .colM9 {
     width: 75%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000340}}
+  /* line 40, ../sass/_grid.scss */
   .colM10 {
     width: 83.3333333333%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000340}}
+  /* line 40, ../sass/_grid.scss */
   .colM11 {
     width: 91.6666666667%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000340}}
+  /* line 40, ../sass/_grid.scss */
   .colM12 {
     width: 100%;
     float: left; } }
 @media screen and (min-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/_grid.scss */
   .colL1 {
     width: 8.3333333333%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/_grid.scss */
   .colL2 {
     width: 16.6666666667%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/_grid.scss */
   .colL3 {
     width: 25%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/_grid.scss */
   .colL4 {
     width: 33.3333333333%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/_grid.scss */
   .colL5 {
     width: 41.6666666667%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/_grid.scss */
   .colL6 {
     width: 50%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/_grid.scss */
   .colL7 {
     width: 58.3333333333%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/_grid.scss */
   .colL8 {
     width: 66.6666666667%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/_grid.scss */
   .colL9 {
     width: 75%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/_grid.scss */
   .colL10 {
     width: 83.3333333333%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/_grid.scss */
   .colL11 {
     width: 91.6666666667%;
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_grid\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/_grid.scss */
   .colL12 {
     width: 100%;
     float: left; } }
 /* Add a black background color to the top navigation */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\000032}}
+/* line 2, ../sass/_nav.scss */
 .topnav {
   background-color: #014633;
   overflow: hidden;
@@ -228,7 +240,7 @@
           align-items: center; }
 
 /* Style the links inside the navigation bar */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000311}}
+/* line 11, ../sass/_nav.scss */
 .topnav a {
   float: left;
   display: block;
@@ -240,27 +252,27 @@
   height: 100%; }
 
 /* Change the color of links on hover */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000323}}
+/* line 23, ../sass/_nav.scss */
 .topnav a:hover {
   background-color: #FAE42F;
   color: black; }
 
 /* Add an active class to highlight the current page */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000329}}
+/* line 29, ../sass/_nav.scss */
 .topnav a.active {
   background-color: #FAE42F;
   color: black; }
 
 /* Hide the link that should open and close the topnav on small screens */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000335}}
+/* line 35, ../sass/_nav.scss */
 .topnav .icon {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000339}}
+/* line 39, ../sass/_nav.scss */
 a.icon {
   font-size: 300%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000344}}
+/* line 44, ../sass/_nav.scss */
 .nav-logo {
   float: left;
   height: 100%;
@@ -268,21 +280,21 @@ a.icon {
   padding-right: 3%; }
 
 @media screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000352}}
+  /* line 52, ../sass/_nav.scss */
   .nav-logo {
     display: hidden; } }
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000360}}
+  /* line 60, ../sass/_nav.scss */
   .topnav a:not(:first-child) {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000361}}
+  /* line 61, ../sass/_nav.scss */
   .topnav a.icon {
     float: right;
     display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000366}}
+  /* line 66, ../sass/_nav.scss */
   .topnav {
     display: inherit;
     -webkit-box-flex: 0;
@@ -293,31 +305,31 @@ a.icon {
             align-items: none;
     overflow: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000373}}
+  /* line 73, ../sass/_nav.scss */
   .topnav a {
     height: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000377}}
+  /* line 77, ../sass/_nav.scss */
   .nav-logo {
     display: hidden; } }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000384}}
+  /* line 84, ../sass/_nav.scss */
   .topnav.responsive {
     position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000385}}
+  /* line 85, ../sass/_nav.scss */
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_nav\.scss}line{font-family:\0000390}}
+  /* line 90, ../sass/_nav.scss */
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_footer\.scss}line{font-family:\000034}}
+/* line 4, ../sass/_footer.scss */
 .footer {
   background-color: #014633;
   display: -webkit-box;
@@ -326,17 +338,37 @@ a.icon {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 5% 0%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_footer\.scss}line{font-family:\0000310}}
+  padding: 2% 0%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center; }
+  /* line 12, ../sass/_footer.scss */
   .footer a {
     text-decoration: none;
+    color: black;
+    margin-right: 2%;
+    padding: 1%;
+    border-radius: 0.5em;
+    background-color: #FAE42F; }
+  /* line 21, ../sass/_footer.scss */
+  .footer a:hover {
+    background-color: #014633;
     color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\000035}}
+/* line 27, ../sass/_footer.scss */
+.footer-text {
+  color: white; }
+  /* line 30, ../sass/_footer.scss */
+  .footer-text h3 {
+    font-weight: 300; }
+
+/* line 5, ../sass/_shop.scss */
 h1 {
   color: black; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\000039}}
+/* line 9, ../sass/_shop.scss */
 .shop {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -348,7 +380,7 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000316}}
+/* line 16, ../sass/_shop.scss */
 .shop-item-container {
   width: 90%;
   overflow: auto;
@@ -356,22 +388,22 @@ h1 {
   margin: 5% 5%;
   border-radius: 1em;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000324}}
+  /* line 24, ../sass/_shop.scss */
   .shop-item-container a {
     text-decoration: none;
     color: black;
     background-color: #FAE42F;
     padding: 2% 3%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000331}}
+  /* line 31, ../sass/_shop.scss */
   .shop-item-container h3 {
     float: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000336}}
+/* line 36, ../sass/_shop.scss */
 .shop-item-text {
   width: 80%;
   margin: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000343}}
+/* line 43, ../sass/_shop.scss */
 .filter {
   position: fixed;
   bottom: 0;
@@ -391,11 +423,11 @@ h1 {
       -ms-flex-pack: center;
           justify-content: center;
   cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000357}}
+  /* line 57, ../sass/_shop.scss */
   .filter img {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000362}}
+/* line 62, ../sass/_shop.scss */
 .filter-popup {
   padding: 5% 5%;
   display: none;
@@ -409,45 +441,46 @@ h1 {
   z-index: 100;
   color: white;
   overflow: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000377}}
+  /* line 77, ../sass/_shop.scss */
   .filter-popup form label {
     float: left;
     color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000382}}
+  /* line 82, ../sass/_shop.scss */
   .filter-popup form select {
     float: none;
     border: 1px solid white;
     margin-bottom: 4%; }
 
 @media screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000397}}
+  /* line 97, ../sass/_shop.scss */
   .filter {
-    width: 5%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_shop\.scss}line{font-family:\0000399}}
+    width: 5%;
+    padding: 1%; }
+    /* line 100, ../sass/_shop.scss */
     .filter img {
       width: 100%; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\000032}}
+/* line 2, ../sass/_beds.scss */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
 /* Position the image container (needed to position the left and right arrows) */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\000037}}
+/* line 7, ../sass/_beds.scss */
 .container {
   position: relative; }
 
 /* Hide the images by default */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\0000312}}
+/* line 12, ../sass/_beds.scss */
 .mySlides {
   display: none; }
 
 /* Add a pointer when hovering over the thumbnail images */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\0000317}}
+/* line 17, ../sass/_beds.scss */
 .cursor {
   cursor: pointer; }
 
 /* Next & previous buttons */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\0000322}}
+/* line 22, ../sass/_beds.scss */
 .prev,
 .next {
   cursor: pointer;
@@ -466,19 +499,19 @@ h1 {
   -webkit-user-select: none; }
 
 /* Position the "next button" to the right */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\0000339}}
+/* line 39, ../sass/_beds.scss */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px; }
 
 /* On hover, add a black background color with a little bit see-through */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\0000345}}
+/* line 45, ../sass/_beds.scss */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8); }
 
 /* Number text (1/3 etc) */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\0000351}}
+/* line 51, ../sass/_beds.scss */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -487,72 +520,72 @@ h1 {
   top: 0; }
 
 /* Container for image text */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\0000360}}
+/* line 60, ../sass/_beds.scss */
 .caption-container {
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
   color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\0000367}}
+/* line 67, ../sass/_beds.scss */
 .row:after {
   content: "";
   display: table;
   clear: both; }
 
 /* Six columns side by side */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\0000374}}
+/* line 74, ../sass/_beds.scss */
 .column {
   float: left;
   width: 16.66%; }
 
 /* Add a transparency effect for thumnbail images */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\0000380}}
+/* line 80, ../sass/_beds.scss */
 .demo {
   opacity: 0.6; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\0000384}}
+/* line 84, ../sass/_beds.scss */
 .active,
 .demo:hover {
   opacity: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\0000395}}
+/* line 95, ../sass/_beds.scss */
 .bed-text {
   margin: 5% 5% 5% 5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\00003100}}
+/* line 100, ../sass/_beds.scss */
 .bed-form label {
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\00003104}}
+/* line 104, ../sass/_beds.scss */
 .bed-form select {
   background-color: white;
   margin-bottom: 5%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\00003109}}
+  /* line 109, ../sass/_beds.scss */
   .bed-form select option {
     width: 100%;
     border: none; }
 
 @media screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\00003118}}
+  /* line 118, ../sass/_beds.scss */
   .container {
     width: 80%;
     margin: auto;
     margin-top: 12%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\00003129}}
+  /* line 129, ../sass/_beds.scss */
   .bed-form select {
     background-color: white;
     margin-bottom: 2%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/_beds\.scss}line{font-family:\00003134}}
+    /* line 134, ../sass/_beds.scss */
     .bed-form select option {
       width: 100%;
       border: none; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/styles\.scss}line{font-family:\0000313}}
+/* line 13, ../sass/styles.scss */
 body {
   padding: 0;
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jason\/Desktop\/wellington-beds\/sass\/styles\.scss}line{font-family:\0000318}}
+/* line 18, ../sass/styles.scss */
 * {
   font-family: 'Montserrat', sans-serif; }
 
