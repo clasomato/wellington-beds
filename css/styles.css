@@ -795,6 +795,7 @@ form button {
   display: none;
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
+  overflow: auto;
   top: 0;
   left: 0;
   width: 100vw;
@@ -808,22 +809,23 @@ form button {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: white;
-  position: relative; }
-  /* line 144, ../sass/_cart.scss */
+  position: relative;
+  overflow: auto; }
+  /* line 145, ../sass/_cart.scss */
   .pay-form p {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 2%; }
-  /* line 151, ../sass/_cart.scss */
+  /* line 152, ../sass/_cart.scss */
   .pay-form h1 {
     text-align: center;
     color: white;
     font-weight: lighter; }
-  /* line 157, ../sass/_cart.scss */
+  /* line 158, ../sass/_cart.scss */
   .pay-form input {
     margin-bottom: 2%; }
-  /* line 161, ../sass/_cart.scss */
+  /* line 162, ../sass/_cart.scss */
   .pay-form input[type=text] {
     width: 100%;
     border: 1px solid black;
@@ -831,7 +833,7 @@ form button {
     padding: 1% 2%; }
 
 @media screen and (min-width: 900px) {
-  /* line 171, ../sass/_cart.scss */
+  /* line 172, ../sass/_cart.scss */
   .overlay-background {
     display: none;
     background-color: rgba(0, 0, 0, 0.7);
@@ -841,7 +843,7 @@ form button {
     width: 100vw;
     height: 100vh; }
 
-  /* line 182, ../sass/_cart.scss */
+  /* line 183, ../sass/_cart.scss */
   .pay-form {
     background-color: #014633;
     width: 30%;
@@ -850,21 +852,21 @@ form button {
             box-sizing: border-box;
     color: white;
     position: relative; }
-    /* line 191, ../sass/_cart.scss */
+    /* line 192, ../sass/_cart.scss */
     .pay-form p {
       position: absolute;
       top: 0;
       right: 0;
       margin-right: 2%; }
-    /* line 198, ../sass/_cart.scss */
+    /* line 199, ../sass/_cart.scss */
     .pay-form h1 {
       text-align: center;
       color: white;
       font-weight: lighter; }
-    /* line 204, ../sass/_cart.scss */
+    /* line 205, ../sass/_cart.scss */
     .pay-form input {
       margin-bottom: 2%; }
-    /* line 208, ../sass/_cart.scss */
+    /* line 209, ../sass/_cart.scss */
     .pay-form input[type=text] {
       width: 100%;
       border: 1px solid black;

@@ -125,7 +125,7 @@
   display: none;
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
-  // overflow: hidden;
+  overflow: auto;
   top: 0;
   left: 0;
   width: 100vw;
@@ -140,6 +140,7 @@
   box-sizing: border-box;
   color: white;
   position: relative;
+  overflow: auto;
 
   p {
     position: absolute;
