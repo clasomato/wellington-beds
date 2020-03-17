@@ -19,3 +19,23 @@ body {
 * {
   font-family: 'Montserrat', sans-serif;
 }
+
+
+// OOCSS
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.standard-button {
+  @include button();
+  text-decoration: none;
+  color: black;
+}
+
+.fr {
+  float: right;
+}
