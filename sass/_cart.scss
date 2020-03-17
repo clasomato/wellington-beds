@@ -57,7 +57,7 @@
 }
 
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:900px) {
   .cart-container {
     margin: 0 auto;
     width: 80%;
@@ -115,3 +115,102 @@
     }
   }
 }
+
+
+
+
+
+// Overlay STARTS
+.overlay-background {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  // overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.pay-form {
+  // display: none;
+  background-color: $wbgreen;
+  width: 90%;
+  padding: 2%;
+  box-sizing: border-box;
+  color: white;
+  position: relative;
+
+  p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 2%;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+  }
+
+  input {
+    margin-bottom: 2%;
+  }
+
+  input[type=text] {
+    width: 100%;
+    border: 1px solid black;
+    font-size: 1.4em;
+    padding: 1% 2%;
+  }
+}
+
+
+@media screen and (min-width:900px) {
+  .overlay-background {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    // overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .pay-form {
+    // display: none;
+    background-color: $wbgreen;
+    width: 30%;
+    padding: 2%;
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+
+    p {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-right: 2%;
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+      font-weight: lighter;
+    }
+
+    input {
+      margin-bottom: 2%;
+    }
+
+    input[type=text] {
+      width: 100%;
+      border: 1px solid black;
+      font-size: 1.4em;
+      padding: 1% 2%;
+    }
+  }
+}
+// Overlay ENDS

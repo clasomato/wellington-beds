@@ -112,10 +112,45 @@
               </tr>
             </table>
             <br>
-            <a href="#" class="standard-button fr">Check out</a>
+            <a href="#" id="overlay-trigger" class="standard-button fr">Check out</a>
           </div>
 
 
+        </div>
+
+
+
+
+
+        <!-- Payment Overlay -->
+        <div id="overlay" class="overlay-background flex flex-center">
+          <div class="pay-form">
+            <p id="overlay-close" style="font-size:1.8em;">&#10006;</p>
+            <div class="row">
+              <div class="col12">
+                <h1>Payment</h1>
+                <form class="payment-form" action="complete.html" method="post"> <br>
+                  <input type="text" name="" value="" placeholder="Name"> <br>
+                  <input type="text" name="" value=""placeholder="Email"> <br>
+                  <input type="text" name="" value=""placeholder="Phone Number"> <br>
+                  <input type="checkbox" name="" value=""placeholder="Email">I'd Like to recive updates & news
+                  <br>
+                  <h2>Shipping Address</h2>
+                  <input type="text" name="" value="" placeholder="Street Address"> <br>
+                  <input type="text" name="" value="" placeholder="Post Code"> <br>
+                  <input type="text" name="" value="" placeholder="City"> <br>
+
+                  <h2>Payment via Visa</h2>
+                  <h5><a href="#">Other options available here</a></h5>
+                  <input type="text" name="" value="" placeholder="Card Number"> <br>
+                  <input type="text" name="" value="" placeholder="Holder Name"> <br>
+                  <input type="text" name="" value="" placeholder="Expirary"> <br>
+                  <input type="text" name="" value="" placeholder="CVC"> <br>
+                  <button type="button" name="button">Pay</button>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
 

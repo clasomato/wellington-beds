@@ -15,3 +15,18 @@ $("#icon").click(function(){
 $("#footer-nav-trigger").click(function(){
   $("#footer-nav-content").toggle();
 });
+
+
+$("#overlay").hide();
+
+$("#overlay-trigger").click(function(){
+  $("#overlay").toggle();
+
+  $("body").addClass("hidden");
+});
+
+$("#overlay-close").click(function(){
+  $("#overlay").hide();
+
+  $("body").removeClass("hidden");
+});

@@ -30,6 +30,11 @@ body {
   justify-content: space-between;
 }
 
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
 .standard-button {
   @include button();
   text-decoration: none;
@@ -38,4 +43,8 @@ body {
 
 .fr {
   float: right;
+}
+
+.hidden {
+  overflow: hidden;
 }
